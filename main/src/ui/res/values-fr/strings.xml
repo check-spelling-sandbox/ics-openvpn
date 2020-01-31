@@ -34,7 +34,7 @@
     <string name="custom_option_warning">Entrez les options d\'OpenVPN personnalisées. A utiliser avec précaution. A noter aussi que de nombreux paramètres Tun d\'OpenVPN ne sont pas pris en charge à cause de la conception de \"VPNSettings\". Si vous pensez qu\'une option importante manque, veuillez contacter l\'auteur</string>
     <string name="auth_username">Nom d\'utilisateur (laisser vide pour aucune authentification)</string>
     <string name="auth_pwquery">"Mot de passe"</string>
-    <string name="static_keys_info">"Pour la configuration statique, des clés d\'authentification TLS seront utilisés comme des clés statiques."</string>
+    <string name="static_keys_info">"Pour la configuration statique, des clés d\'authentication TLS seront utilisés comme des clés statiques."</string>
     <string name="configure_the_vpn">"Configurer le VPN"</string>
     <string name="menu_add_profile">"Ajouter un profil"</string>
     <string name="add_profile_name_prompt">"Entrez un nom identifiant le nouveau profil"</string>
@@ -417,7 +417,7 @@
     <string name="channel_name_background">Statistiques de connexion</string>
     <string name="channel_description_background">Statistiques de la connexion OpenVPN établie</string>
     <string name="channel_name_status">Changement du statut de connexion</string>
-    <string name="channel_description_status">Changement d\'état de la connexion OpenVPN (Connexion, authentification,&#8230;)</string>
+    <string name="channel_description_status">Changement d\'état de la connexion OpenVPN (Connexion, authentication,&#8230;)</string>
     <string name="weakmd_title">Hashage faible (MD5) dans la signature du certificat (SSL_CTX_use_certificate md trop faible)</string>
     <string name="title_activity_open_sslspeed">Test de vitesse OpenSSL</string>
     <string name="openssl_cipher_name">Noms de chiffrement OpenSSL</string>
@@ -435,12 +435,12 @@
     <string name="no_orbotfound">L\'application Orbot est introuvable. Veuillez installer Orbot ou utiliser l\'intégration manuelle de Socks v5.</string>
     <string name="faq_remote_api_title">API à distance</string>
     <string name="faq_remote_api">OpenVPN pour Android prend en charge deux API distantes, une API sophistiquée utilisant AIDL (remoteEXample dans le référentiel git) et une simple utilisant Intents. &lt;p&gt;Exemples utilisant le shell adb et Intents. Remplacez nom_profil par votre nom de profil&lt;p&gt;&lt;p&gt; adb shell am start-activity -a android.intent.action.MAIN de.blinkt.openvpn / .api.DisconnectVPN&lt;p&gt; adb shell am start-activity -a android.intent.action.MAIN - e de.blinkt.openvpn.api.profileName Blinkt de.blinkt.openvpn / .api.ConnectVPN</string>
-    <string name="enableproxyauth">Activer l\'authentification par proxy</string>
+    <string name="enableproxyauth">Activer l\'authentication par proxy</string>
     <string name="error_orbot_and_proxy_options">Impossible d\'utiliser l\'instruction supplémentaire http-proxy-option et l\'intégration Orbot en même tempsO</string>
     <string name="info_from_server">Info du serveur: \'%s\'</string>
     <string name="channel_name_userreq">Interaction de l\'utilisateur requise</string>
     <string name="channel_description_userreq">La connexion OpenVPN nécessite une saisie utilisateur, par
-        exemple une authentification à deux facteurs
+        exemple une authentication à deux facteurs
     </string>
     <string name="openurl_requested">Ouvrir l\'URL pour continuer l\'authentification VPN</string>
     <string name="crtext_requested">Répondez au défi pour continuer l\'authentification VPN</string>
