@@ -479,7 +479,7 @@ public class OpenVpnManagementThread implements Runnable, OpenVPNManagement {
         if (proxyType == Connection.ProxyType.ORBOT) {
             VpnStatus.updateStateString("WAIT_ORBOT", "Waiting for Orbot to start", R.string.state_waitorbot, ConnectionStatus.LEVEL_CONNECTING_NO_SERVER_REPLY_YET);
             OrbotHelper orbotHelper = OrbotHelper.get(mOpenVPNService);
-            if (!OrbotHelper.checkTorReceier(mOpenVPNService))
+            if (!OrbotHelper.checkTorReceiver(mOpenVPNService))
                 VpnStatus.logError("Orbot does not seem to be installed!");
 
             mResumeHandler.postDelayed(orbotStatusTimeOutRunnable, ORBOT_TIMEOUT_MS);
