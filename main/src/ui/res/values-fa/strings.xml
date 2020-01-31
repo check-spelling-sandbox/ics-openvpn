@@ -431,7 +431,7 @@
     <string name="osslspeedtest">آزمون سریع رمز عبور OpenSSL</string>
     <string name="openssl_error">رمزنگاشته های SSL دچار خطا شده است.</string>
     <string name="running_test">در حال تست کردن</string>
-    <string name="test_algoirhtms">الگوریتم های انتخاب شده آزمایش</string>
+    <string name="test_algorithms">الگوریتم های انتخاب شده آزمایش</string>
     <string name="all_app_prompt">یک برنامه بیگانه در حال تلاش برای دسترسی به %s است. درخواست دسترسی برنامه لغو شد ، مجاز نمودن این برنامه موجب دسترسی کلی به تمام برنامه هاست .</string>
     <string name="openvpn3_nostatickeys">کلیدهای وضعیت  را پشتیبانی کنید .لطفا در زیر قسمت تنظیمات عمومی به OpenVPN 2.x تغییر یابد .</string>
     <string name="openvpn3_pkcs12">استفاده از فایلهای PKCS12 مستقیما با اجرا   VPN 3 سی پلاس (++) پشتیبانی نمی شود. لطفا فایل های pkcs12 را به کلیدهای ذخیره اندروید افزوده یا در قسمت زیر تنظیمات عمومی به OpenVPN 2.x تغییر دهید.</string>

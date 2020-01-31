@@ -429,7 +429,7 @@
     <string name="osslspeedtest">اختبار سرعة خوارزمية OpenSSL</string>
     <string name="openssl_error">قام OpenSSL بإرجاع خطأ</string>
     <string name="running_test">الإختبار جارٍ&#8230;</string>
-    <string name="test_algoirhtms">اختبار الخوارزميات التي تم اختيارها</string>
+    <string name="test_algorithms">اختبار الخوارزميات التي تم اختيارها</string>
     <string name="all_app_prompt">يحاول تطبيق خارجي التحكم في %s. لا يمكن تحديد التطبيق الذي يطلب الوصول. السماح لهذا التطبيق يمنح الوصول إلى جميع التطبيقات.</string>
     <string name="openvpn3_nostatickeys">لا يدعم تطبيق OpenVPN 3 C ++ المفاتيح الثابتة. يرجى التغيير إلى OpenVPN 2.x ضمن الإعدادات العامة.</string>
     <string name="openvpn3_pkcs12">استخدام ملفات PKCS12 مباشرة مع تطبيق OpenVPN 3 C ++ غير مدعوم. يرجى استيراد ملفات pkcs12 إلى ملف تخزين مفاتيح Android أو التغيير إلى OpenVPN 2.x ضمن الإعدادات العامة.</string>
