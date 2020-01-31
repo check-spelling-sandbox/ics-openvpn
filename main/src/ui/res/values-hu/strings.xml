@@ -123,7 +123,7 @@
     <string name="no_vpn_support_image">Az image-ed nem támogatja a VPNService API-t, elnézést :(</string>
     <string name="encryption">Titkosítás</string>
     <string name="cipher_dialog_title">Adja meg a titkosítási módszert</string>
-    <string name="chipher_dialog_message">Adja meg az OpenVPN által használt adattitkosítási titkosítási algoritmusokat, a következővel elválasztva: (--data-ciphers). Hagyja üresen az alapértelmezett AES-256-GCM:AES-128-GCM:CHACHA20-POLY1305 használatához.</string>
+    <string name="cipher_dialog_message">Adja meg az OpenVPN által használt adattitkosítási titkosítási algoritmusokat, a következővel elválasztva: (--data-ciphers). Hagyja üresen az alapértelmezett AES-256-GCM:AES-128-GCM:CHACHA20-POLY1305 használatához.</string>
     <string name="auth_dialog_message">Adja meg az OpenVPN által használt authentication digest-et. Hagyja üresen az alapértelmezett digest-hez.</string>
     <string name="settings_auth">Hitelesítés/Titkosítás</string>
     <string name="file_explorer_tab">Fájlkezelő</string>
