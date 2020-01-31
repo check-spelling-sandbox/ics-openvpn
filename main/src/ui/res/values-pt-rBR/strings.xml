@@ -429,7 +429,7 @@
     <string name="osslspeedtest">Teste de velocidade do OpenSSL Crypto</string>
     <string name="openssl_error">OpenSSL retornou um erro</string>
     <string name="running_test">Executando teste&#8230;</string>
-    <string name="test_algoirhtms">Testar os algoritmos selecionados</string>
+    <string name="test_algorithms">Testar os algoritmos selecionados</string>
     <string name="all_app_prompt">Um aplicativo externo tenta controlar %s. O aplicativo que solicita o acesso não pode ser determinado. Permitir que este aplicativo concede TODOS os aplicativos de acesso.a.3 </string>
     <string name="openvpn3_nostatickeys">A implementação OpenVPN 3 C++ não suporta chaves estáticas. Altere para OpenVPN 2.x nas configurações gerais.</string>
     <string name="openvpn3_pkcs12">Usar diretamente arquivos PKCS12 com a implementação do OpenVPN 3 C++ não é suportado. Importe os arquivos PKCS12 para o armazenamento de chaves do Android ou mude para OpenVPN 2.x nas configurações gerais.</string>

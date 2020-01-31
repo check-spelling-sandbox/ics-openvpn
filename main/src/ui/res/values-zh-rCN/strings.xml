@@ -433,7 +433,7 @@
     <string name="osslspeedtest">OpenSSL Crypto速度测试</string>
     <string name="openssl_error">OpenSSL 返回错误</string>
     <string name="running_test">正在运行测试&#8230;</string>
-    <string name="test_algoirhtms">测试选定的算法</string>
+    <string name="test_algorithms">测试选定的算法</string>
     <string name="all_app_prompt">一个外部应用试图控制 %s。无法确定请求权限的应用程序是否安全。允许这个应用程序将授予所有应用程序权限。</string>
     <string name="openvpn3_nostatickeys">OpenVPN 3 C ++实现不支持静态密钥。请在常规设置下更改为OpenVPN 2.x.</string>
     <string name="openvpn3_pkcs12">不支持OpenVPN 3 的C++ 实现直接使用pkcs 12 文件。请将 pkcs12 文件导入 Android 密钥库, 或在常规设置下更改为 OpenVPN 2.x。</string>
