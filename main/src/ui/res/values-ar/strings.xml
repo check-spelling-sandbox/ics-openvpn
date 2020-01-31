@@ -165,7 +165,7 @@
     <string name="owner_fix">إصلاح ملكية/dev/tun</string>
     <string name="generated_config_summary">emad</string>
     <string name="edit_profile_title">تعديل \"%s\"</string>
-    <string name="building_configration">جار إنشاء الإعدادات&#8230;</string>
+    <string name="building_configuration">جار إنشاء الإعدادات&#8230;</string>
     <string name="netchange_summary">سيؤدي تشغيل هذا الخيار إلى إعادة الاتصال في حالة تغيير حالة الشبكة (مثل WiFi من / إلى الهاتف المحمول)</string>
     <string name="netchange">إعادة الاتصال عند تبديل الشبكة</string>
     <string name="netstatus">حالة الشبكة: %s</string>

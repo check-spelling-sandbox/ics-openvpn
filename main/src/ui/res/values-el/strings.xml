@@ -162,7 +162,7 @@
     <string name="owner_fix">Επιδιόρθωση κυριότητας του /dev/tun</string>
     <string name="generated_config_summary">Εμφανίζει το παραγόμενο αρχείο ρυθμίσεων του OpenVPN</string>
     <string name="edit_profile_title">Επεξεργασία \"%s\"</string>
-    <string name="building_configration">Δημιουργία ρυθμίσεων&#8230;</string>
+    <string name="building_configuration">Δημιουργία ρυθμίσεων&#8230;</string>
     <string name="netchange_summary">Ενεργοποιώντας αυτή την επιλογή, θα εξαναγκάσει επανασύνδεση αν η κατάσταση του δικτύου αλλάξει (π.χ. WiFi από/προς κινητό)</string>
     <string name="netchange">Επανασύνδεση σε αλλαγή του δικτύου</string>
     <string name="netstatus">Κατάσταση δικτύου: %s</string>

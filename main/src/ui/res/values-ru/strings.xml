@@ -165,7 +165,7 @@
     <string name="owner_fix">Исправить права доступа к /dev/tun</string>
     <string name="generated_config_summary">Показывает сгенерированный файл конфигурации OpenVPN</string>
     <string name="edit_profile_title">Правка «%s»</string>
-    <string name="building_configration">Сборка конфигурации&#8230;</string>
+    <string name="building_configuration">Сборка конфигурации&#8230;</string>
     <string name="netchange_summary">Повторное подключение, если изменяется состояние сети (например, при переключении с WiFi на мобильную и наоборот).</string>
     <string name="netchange">Повторное подключение при смене сети</string>
     <string name="netstatus">Статус сети: %s</string>

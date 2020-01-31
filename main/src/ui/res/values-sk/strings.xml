@@ -162,7 +162,7 @@
     <string name="owner_fix">Opraviť vlastníctvo /dev/ton</string>
     <string name="generated_config_summary">Zobrazí vygenerované nastavenia OpenVPN</string>
     <string name="edit_profile_title">Úprava \"%s\"</string>
-    <string name="building_configration">Vytváram konfiguráciu ...</string>
+    <string name="building_configuration">Vytváram konfiguráciu ...</string>
     <string name="netchange_summary">Zapnutím tejto voľby bude vynútené opätovné pripojenie, ak sa zmení stav siete (napr. Z WiFi na mobilnú sieť a späť)</string>
     <string name="netchange">Opätovne pripojiť pri zmene siete</string>
     <string name="netstatus">Stav siete: %s</string>
