@@ -341,7 +341,7 @@
     <string name="ignore_multicast_route">Mengabaikan rute multicast: %s</string>
     <string name="ab_only_cidr">Android hanya mendukung rute CIDR ke VPN. Sejak non-CIDR rute yang hampir tidak pernah digunakan, OpenVPN untuk Android akan menggunakan / 32 untuk rute yang tidak CIDR dan mengeluarkan peringatan.</string>
     <string name="ab_proxy">Android akan tetap menggunakan pengaturan proxy Anda ditentukan untuk mobile koneksi / Wi-Fi ketika tidak ada server DNS diatur. OpenVPN untuk Android akan memperingatkan Anda tentang hal ini dalam log. <p> Ketika VPN menetapkan server DNS Android tidak akan proxy. Tidak ada API untuk mengatur proxy untuk koneksi VPN. </p></string>
-    <string name="ab_not_route_to_vpn">IP klien dikonfigurasi dan IP di topeng jaringan tidak diteruskan ke VPN. OpenVPN bekerja di sekitar bug ini dengan secara eksplisit menambahkan rute yang corrosponds ke IP klien dan netmask nya</string>
+    <string name="ab_not_route_to_vpn">IP klien dikonfigurasi dan IP di topeng jaringan tidak diteruskan ke VPN. OpenVPN bekerja di sekitar bug ini dengan secara eksplisit menambahkan rute yang corresponds ke IP klien dan netmask nya</string>
     <string name="ab_only_cidr_title">Rute non CIDR</string>
     <string name="ab_proxy_title">Tindakan Proxy untuk VPN</string>
     <string name="version_upto">%s dan sebelumnya</string>
