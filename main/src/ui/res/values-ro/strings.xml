@@ -346,7 +346,7 @@
     <string name="version_upto">%s sau mai puțin</string>
     <string name="copy_of_profile">Copie a %s</string>
     <string name="ab_not_route_to_vpn_title">Rutează prin adresa IP configurată</string>
-    <string name="custom_connection_options_warng">Specificați opțiunile specifice conexiunii personalizate. Folosiți cu grijă</string>
+    <string name="custom_connection_options_warning">Specificați opțiunile specifice conexiunii personalizate. Folosiți cu grijă</string>
     <string name="custom_connection_options">Opţiunile Particularizate</string>
     <string name="remove_connection_entry">Ștergeți conexiunea</string>
     <string name="version_and_later">%s şi mai târziu</string>

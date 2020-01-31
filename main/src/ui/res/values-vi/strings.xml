@@ -347,7 +347,7 @@
     <string name="version_upto">%s và trước đó</string>
     <string name="copy_of_profile">Bản sao của %s</string>
     <string name="ab_not_route_to_vpn_title">Định tuyến đến cấu hình địa chỉ IP</string>
-    <string name="custom_connection_options_warng">Xác định kết nối tùy chỉnh cụ thể. Dùng cẩn thận</string>
+    <string name="custom_connection_options_warning">Xác định kết nối tùy chỉnh cụ thể. Dùng cẩn thận</string>
     <string name="custom_connection_options">Cấu hình tùy chỉnh</string>
     <string name="remove_connection_entry">Gỡ bỏ mục kết nối</string>
     <string name="version_and_later">%s và sau</string>

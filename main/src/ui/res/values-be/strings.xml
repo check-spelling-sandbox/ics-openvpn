@@ -344,7 +344,7 @@
     <string name="version_upto">%s і больш раннія</string>
     <string name="copy_of_profile">Копія %s</string>
     <string name="ab_not_route_to_vpn_title">Маршрут для ўсталяванага адраса IP</string>
-    <string name="custom_connection_options_warng">Азначце ўласныя параметры злучэння. Карыстайцеся з асцярожнасцю</string>
+    <string name="custom_connection_options_warning">Азначце ўласныя параметры злучэння. Карыстайцеся з асцярожнасцю</string>
     <string name="custom_connection_options">Уласныя параметры</string>
     <string name="remove_connection_entry">Выдаліць запіс падлучэння</string>
     <string name="version_and_later">%s і больш познія</string>

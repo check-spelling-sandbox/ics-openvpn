@@ -341,7 +341,7 @@
     <string name="version_upto">%s a starší</string>
     <string name="copy_of_profile">Kopie %s</string>
     <string name="ab_not_route_to_vpn_title">Trasa k nastavené IP adrese</string>
-    <string name="custom_connection_options_warng">Zadejte vlastní specifické možnosti k připojení. Používejte opatrně</string>
+    <string name="custom_connection_options_warning">Zadejte vlastní specifické možnosti k připojení. Používejte opatrně</string>
     <string name="custom_connection_options">Vlastní možnosti</string>
     <string name="remove_connection_entry">Odstranit položku připojení</string>
     <string name="version_and_later">%s a později</string>

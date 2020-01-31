@@ -347,7 +347,7 @@
     <string name="version_upto">%s et antérieur</string>
     <string name="copy_of_profile">Copie de %s</string>
     <string name="ab_not_route_to_vpn_title">Route vers l\'adresse IP configurée</string>
-    <string name="custom_connection_options_warng">Pour entrer des options de connexion personnalisées. À utiliser avec précaution</string>
+    <string name="custom_connection_options_warning">Pour entrer des options de connexion personnalisées. À utiliser avec précaution</string>
     <string name="custom_connection_options">Options personnalisées</string>
     <string name="remove_connection_entry">Supprimer entrée de connexion</string>
     <string name="version_and_later">%s et ultérieur</string>

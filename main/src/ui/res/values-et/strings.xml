@@ -345,7 +345,7 @@
     <string name="version_upto">%s ja eelnevad</string>
     <string name="copy_of_profile">%s koopia</string>
     <string name="ab_not_route_to_vpn_title">Seadistatud IP aadressi marsruut</string>
-    <string name="custom_connection_options_warng">Seadista kohandatavad ühendusespetsiifilised valikud. Kasuta ettevaatlikult</string>
+    <string name="custom_connection_options_warning">Seadista kohandatavad ühendusespetsiifilised valikud. Kasuta ettevaatlikult</string>
     <string name="custom_connection_options">Kohandatavad valikud</string>
     <string name="remove_connection_entry">Eemalda ühenduse kirje</string>
     <string name="version_and_later">%s ja hilisem</string>

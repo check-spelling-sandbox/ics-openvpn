@@ -344,7 +344,7 @@
     <string name="version_upto">%s en eerder</string>
     <string name="copy_of_profile">Kopie van %s</string>
     <string name="ab_not_route_to_vpn_title">Route naar het geconfigureerde IP-adres</string>
-    <string name="custom_connection_options_warng">Specificeer aangepaste verbindingsopties. Gebruik voorzichtig</string>
+    <string name="custom_connection_options_warning">Specificeer aangepaste verbindingsopties. Gebruik voorzichtig</string>
     <string name="custom_connection_options">Aangepaste Opties</string>
     <string name="remove_connection_entry">Verwijder de verbinding</string>
     <string name="version_and_later">%s en hoger</string>

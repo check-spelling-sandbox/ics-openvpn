@@ -354,7 +354,7 @@ API VPNService не позволяет указывать сети, которы
     <string name="version_upto">%s и ранее</string>
     <string name="copy_of_profile">Копия %s</string>
     <string name="ab_not_route_to_vpn_title">Маршрутизация на настроенный IP-адрес</string>
-    <string name="custom_connection_options_warng">Укажите индивидуальные параметры подключения. Используйте с осторожностью</string>
+    <string name="custom_connection_options_warning">Укажите индивидуальные параметры подключения. Используйте с осторожностью</string>
     <string name="custom_connection_options">Пользовательские параметры</string>
     <string name="remove_connection_entry">Удалить запись о подключении</string>
     <string name="version_and_later">%s и позднее</string>

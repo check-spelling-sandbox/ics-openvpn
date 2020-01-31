@@ -355,7 +355,7 @@
     <string name="version_upto">%s und früher</string>
     <string name="copy_of_profile">Kopie von %s</string>
     <string name="ab_not_route_to_vpn_title">Route zur konfigurierten VPN-IP-Adresse</string>
-    <string name="custom_connection_options_warng">Hier können Sie eigene verbindungsspezifische Optionen festlegen. Seien Sie vorsichtig!</string>
+    <string name="custom_connection_options_warning">Hier können Sie eigene verbindungsspezifische Optionen festlegen. Seien Sie vorsichtig!</string>
     <string name="custom_connection_options">Eigene Optionen</string>
     <string name="remove_connection_entry">Verbindung entfernen</string>
     <string name="version_and_later">%s und neuer</string>
