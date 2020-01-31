@@ -425,7 +425,7 @@
     <string name="osslspeedtest">OpenSSL Crypto වේග පරීක්ෂණය</string>
     <string name="openssl_error">OpenSSL දෝෂයක් ලබා දුන්නේය</string>
     <string name="running_test">අත්හදාබැලීම සිදුවෙමින්&#8230;</string>
-    <string name="test_algoirhtms">තෝරාගත් ඇල්ගොරිතම පරීක්ෂා කරන්න</string>
+    <string name="test_algorithms">තෝරාගත් ඇල්ගොරිතම පරීක්ෂා කරන්න</string>
     <string name="all_app_prompt">බාහිර යෙදුමක් %sපාලනය කිරීමට උත්සාහ කරයි. ප්‍රවේශය ඉල්ලන යෙදුම නිර්ණය කළ නොහැක. මෙම යෙදුමට ඉඩ දීමෙන් සියලුම යෙදුම් වලට ප්‍රවේශය ලබා දේ.</string>
     <string name="openvpn3_nostatickeys">OpenVPN 3 C++ ක්‍රියාත්මක කිරීම ස්ථිතික යතුරු සඳහා සහය නොදක්වයි. කරුණාකර සාමාන්‍ය සැකසුම් යටතේ OpenVPN 2.x වෙත වෙනස් කරන්න.</string>
     <string name="openvpn3_pkcs12">OpenVPN 3 C++ ක්‍රියාත්මක කිරීම සමඟ සෘජුවම PKCS12 ගොනු භාවිතා කිරීම සහය නොදක්වයි. කරුණාකර pkcs12 ගොනු Android යතුරු ගබඩාව වෙත ආයාත කරන්න හෝ සාමාන්‍ය සැකසුම් යටතේ OpenVPN 2.x වෙත වෙනස් කරන්න.</string>

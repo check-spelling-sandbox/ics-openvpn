@@ -429,7 +429,7 @@
     <string name="osslspeedtest">בדיקת מהירות קריפטו של OpenSSL</string>
     <string name="openssl_error">OpenSSL החזיר שגיאה</string>
     <string name="running_test">מבחן ריצה&#8230;</string>
-    <string name="test_algoirhtms">בדוק אלגוריתמים נבחרים</string>
+    <string name="test_algorithms">בדוק אלגוריתמים נבחרים</string>
     <string name="all_app_prompt">אפליקציה חיצונית מנסה לשלוט ב %s. לא ניתן לקבוע את האפליקציה המבקשת גישה. מתן אישור לאפליקציה זו מעניק לכל האפליקציות גישה.</string>
     <string name="openvpn3_nostatickeys">היישום OpenVPN 3 C++ אינו תומך במפתחות סטטיים. אנא שנה ל-OpenVPN 2.x תחת הגדרות כלליות.</string>
     <string name="openvpn3_pkcs12">שימוש בקבצי PKCS12 ישירות עם יישום OpenVPN 3 C++ אינו נתמך. נא לייבא את קבצי pkcs12 למאגר המפתחות של אנדרואיד או שנה ל-OpenVPN 2.x תחת הגדרות כלליות.</string>
