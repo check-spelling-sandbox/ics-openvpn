@@ -274,7 +274,7 @@ public class OpenVPNService extends VpnService implements StateListener, Callbac
         VpnStatus.removeByteCountListener(this);
         unregisterDeviceStateReceiver(mDeviceStateReceiver);
         mDeviceStateReceiver = null;
-        ProfileManager.setConntectedVpnProfileDisconnected(this);
+        ProfileManager.setConnectedVpnProfileDisconnected(this);
         mOpenVPNThread = null;
         if (!mStarting) {
             stopForeground(!mNotificationAlwaysVisible);
