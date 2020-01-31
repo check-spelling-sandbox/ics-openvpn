@@ -22,7 +22,7 @@ class TestLog {
         }
         val li = LogItem(VpnStatus.LogLevel.VERBOSE, longtsring)
 
-        val libytes = li.marschaledBytes;
+        val libytes = li.marshaledBytes;
 
         Assert.assertTrue(libytes.size > 2000);
         Assert.assertTrue(libytes.size < 12000);
