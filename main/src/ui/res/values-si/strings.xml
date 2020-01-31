@@ -163,7 +163,7 @@
     <string name="owner_fix">/dev/tun හි හිමිකම නිවැරදි කරන්න</string>
     <string name="generated_config_summary">ජනනය කරන ලද OpenVPN වින්‍යාස ගොනුව පෙන්වයි</string>
     <string name="edit_profile_title">\"%s\" සංස්කරණය කිරීම</string>
-    <string name="building_configration">ගොඩනැගිලි වින්‍යාසය&#8230;</string>
+    <string name="building_configuration">ගොඩනැගිලි වින්‍යාසය&#8230;</string>
     <string name="netchange_summary">මෙම විකල්පය ක්‍රියාත්මක කිරීමෙන් ජාල තත්ත්වය වෙනස් වුවහොත් නැවත සම්බන්ධ වීමට බල කෙරෙනු ඇත (උදා. WiFi වෙත/ජංගමයෙන්)</string>
     <string name="netchange">ජාල වෙනස් කිරීමේදී නැවත සම්බන්ධ වන්න</string>
     <string name="netstatus">ජාලයේ තත්ත්වය: %s</string>

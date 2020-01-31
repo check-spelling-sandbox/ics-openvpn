@@ -166,7 +166,7 @@
     <string name="owner_fix">תקן בעלות על /dev/tun</string>
     <string name="generated_config_summary">מציג את קובץ התצורה של OpenVPN שנוצר</string>
     <string name="edit_profile_title">„%s” בעריכה</string>
-    <string name="building_configration">יוצר תצורה&#8230;</string>
+    <string name="building_configuration">יוצר תצורה&#8230;</string>
     <string name="netchange_summary">הפעלת אפשרות זו תאלץ חיבור מחדש אם ישתנה מצב הרשת (למשל WiFi לנייד)</string>
     <string name="netchange">התחבר מחדש בשינוי רשת</string>
     <string name="netstatus">מצב הרשת: %s</string>
