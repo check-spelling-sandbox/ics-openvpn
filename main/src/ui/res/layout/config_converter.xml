@@ -92,7 +92,7 @@
                         tools:visibilty="visible" />
 
                 <TextView
-                        android:id="@+id/permssion_hint"
+                        android:id="@+id/permission_hint"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:padding="5dp"
