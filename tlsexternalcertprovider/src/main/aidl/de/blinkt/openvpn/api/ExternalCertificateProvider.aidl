@@ -16,7 +16,7 @@ interface ExternalCertificateProvider {
 
     /**
      * Requests the certificate chain for the selected alias
-     * The first certifcate returned is assumed to be
+     * The first certificate returned is assumed to be
      * the user certificate
      */
     byte[] getCertificateChain(in String alias);
