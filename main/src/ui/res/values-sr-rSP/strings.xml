@@ -163,7 +163,7 @@
     <string name="owner_fix">Поправите власништво над / дев / тун</string>
     <string name="generated_config_summary">Приказује генерисану ОпенВПН конфигурациону датотеку</string>
     <string name="edit_profile_title">Уређивање \"%s\"</string>
-    <string name="building_configration">Изградња конфигурације&#8230;</string>
+    <string name="building_configuration">Изградња конфигурације&#8230;</string>
     <string name="netchange_summary">Ако укључите ову опцију, поново ћете се повезати ако се промени стање мреже (нпр. ВиФи у / са мобилног)</string>
     <string name="netchange">Поново се повежите на промену мреже</string>
     <string name="netstatus">Статус мреже: %s</string>

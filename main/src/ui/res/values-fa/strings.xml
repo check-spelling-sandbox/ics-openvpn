@@ -165,7 +165,7 @@
     <string name="owner_fix">مالکیت / dev / tun را رفع کنید</string>
     <string name="generated_config_summary">فایل پیکربندی OpenVPN تولید شده را نشان می دهد</string>
     <string name="edit_profile_title">ویرایش \"%s\"</string>
-    <string name="building_configration">در حال ساخت پیکربندی&#8230;</string>
+    <string name="building_configuration">در حال ساخت پیکربندی&#8230;</string>
     <string name="netchange_summary">روشن کردن این گزینه در صورت تغییر حالت اتصال شبکه مجبور خواهد شد (به عنوان مثال WiFi به / از تلفن همراه)</string>
     <string name="netchange">مجددا به تغییر شبکه متصل شوید</string>
     <string name="netstatus">وضعیت شبکه: %s</string>
