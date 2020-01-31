@@ -275,7 +275,7 @@ public class OpenVpnManagementThread implements Runnable, OpenVPNManagement {
     }
 
     private void processCommand(String command) {
-        //Log.i(TAG, "Line from managment" + command);
+        //Log.i(TAG, "Line from management" + command);
 
         if (command.startsWith(">") && command.contains(":")) {
             String[] parts = command.split(":", 2);
@@ -330,7 +330,7 @@ public class OpenVpnManagementThread implements Runnable, OpenVPNManagement {
             if (fdtoprotect != null)
                 protectFileDescriptor(fdtoprotect);
         } else {
-            Log.i(TAG, "Got unrecognized line from managment" + command);
+            Log.i(TAG, "Got unrecognized line from management" + command);
             VpnStatus.logWarning("MGMT: Got unrecognized line from management:" + command);
         }
     }
