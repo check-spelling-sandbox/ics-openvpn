@@ -778,11 +778,11 @@ class ConfigConverter : BaseActivity(), FileSelectCallback, View.OnClickListener
                     errorCode = -3
             } catch (se: IOException) {
                 log(R.string.import_content_resolve_error.toString() + ":" + se.localizedMessage)
-                checkMarschmallowFileImportError(data)
+                checkMarshmallowFileImportError(data)
                 errorCode = -2
             } catch (se: SecurityException) {
                 log(R.string.import_content_resolve_error.toString() + ":" + se.localizedMessage)
-                checkMarschmallowFileImportError(data)
+                checkMarshmallowFileImportError(data)
                 errorCode = -2
             }
         }
@@ -819,7 +819,7 @@ class ConfigConverter : BaseActivity(), FileSelectCallback, View.OnClickListener
     }
 
 
-    private fun checkMarschmallowFileImportError(data: Uri?) {
+    private fun checkMarshmallowFileImportError(data: Uri?) {
         // Permission already granted, not the source of the error
         if (checkSelfPermission(Manifest.permission.READ_EXTERNAL_STORAGE) == PackageManager.PERMISSION_GRANTED)
             return
