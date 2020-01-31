@@ -220,7 +220,7 @@
     <string name="minidump_generated">OpenVPN 異常中止，建議使用主選單中的「傳送異常傾印」選項。</string>
     <string name="send_minidump">傳送異常傾印給開發人員</string>
     <string name="send_minidump_summary">傳送上一次異常停止的除錯資訊給開發人員</string>
-    <string name="notifcation_title">OpenVPN－%s</string>
+    <string name="notification_title">OpenVPN－%s</string>
     <string name="session_ipv4string">%1$s－%2$s</string>
     <string name="session_ipv6string">%1$s－%3$s，%2$s</string>
     <string name="state_connecting">正在連線</string>

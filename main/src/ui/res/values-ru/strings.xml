@@ -227,7 +227,7 @@ API VPNService не позволяет указывать сети, которы
     <string name="minidump_generated">Приложение «OpenVPN для Android» завершилось неожиданно. Рассмотрите возможность отправить минидамп разработчику из главного меню.</string>
     <string name="send_minidump">Отправить мини-дамп разработчику</string>
     <string name="send_minidump_summary">Отправляет отладочную информацию о последнем сбое разработчику</string>
-    <string name="notifcation_title">OpenVPN - %s</string>
+    <string name="notification_title">OpenVPN - %s</string>
     <string name="session_ipv4string">%1$s - %2$s</string>
     <string name="session_ipv6string">%1$s - %3$s, %2$s</string>
     <string name="state_connecting">Подключение</string>
