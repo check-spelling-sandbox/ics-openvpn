@@ -193,40 +193,10 @@ public class TrafficHistory implements Parcelable {
         if ((newTdp.timestamp - tpList.getFirst().timestamp) / timePeriod < (PERIODS_TO_KEEP + 1))
             return;
 
-<<<<<<< HEAD
         for (TrafficDatapoint tph : tpList) {
             // List is iterated from oldest to newest, remember first one that we did not
             if ((newTdp.timestamp - tph.timestamp) / timePeriod >= PERIODS_TO_KEEP)
                 toRemove.add(tph);
-=======
-        if (seconds) {
-            timePeriod = TIME_PERIOD_MINTUES;
-            tpList = trafficHistorySeconds;
-            nextList = trafficHistoryMinutes;
-            lastTsPeriod = lastSecondUsedForMinute;
-        } else {
-            timePeriod = TIME_PERIOD_HOURS;
-            tpList = trafficHistoryMinutes;
-            nextList = trafficHistoryHours;
-            lastTsPeriod = lastMinuteUsedForHours;
-        }
-
-        if (newTdp.timestamp / timePeriod > (lastTsPeriod.timestamp / timePeriod)) {
-            nextList.add(newTdp);
-
-            if (seconds) {
-                lastSecondUsedForMinute = newTdp;
-                removeAndAverage(newTdp, false);
-            } else
-                lastMinuteUsedForHours = newTdp;
-
-            for (TrafficDatapoint tph : tpList) {
-                // List is iterated from oldest to newest, remember the first one that we did not
-                if ((newTdp.timestamp - tph.timestamp) / timePeriod >= PERIODS_TO_KEEP)
-                    toRemove.add(tph);
-            }
-            tpList.removeAll(toRemove);
->>>>>>> 01a54d06 (spelling: remember the)
         }
         tpList.removeAll(toRemove);
     }
