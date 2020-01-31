@@ -336,7 +336,7 @@ public class LaunchVPN extends Activity {
 
     }
 
-    private void execeuteSUcmd(String command) {
+    private void executeSUcmd(String command) {
         try {
             ProcessBuilder pb = new ProcessBuilder("su", "-c", command);
             Process p = pb.start();
