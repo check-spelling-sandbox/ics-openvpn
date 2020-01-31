@@ -123,7 +123,7 @@
     <string name="no_vpn_support_image">Dit billede understøtter ikke VPNService API\'en, beklager :(</string>
     <string name="encryption">Kryptering</string>
     <string name="cipher_dialog_title">Angiv krypterings metode</string>
-    <string name="chipher_dialog_message">Angiv datakrypteringschifferalgoritmerne brugt af OpenVPN adskilt af: (--data-ciphers). Lad stå tomt for at bruge standarden AES-256-GCM:AES-128-GCM:CHACHA20-POLY1305.</string>
+    <string name="cipher_dialog_message">Angiv datakrypteringschifferalgoritmerne brugt af OpenVPN adskilt af: (--data-ciphers). Lad stå tomt for at bruge standarden AES-256-GCM:AES-128-GCM:CHACHA20-POLY1305.</string>
     <string name="auth_dialog_message">Angiv autentificeringsdigest til brug af OpenVPN. Efterlad tom for at anvende standard digest.</string>
     <string name="settings_auth">Autentificering/kryptering</string>
     <string name="file_explorer_tab">Stifinder</string>

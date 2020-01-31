@@ -127,7 +127,7 @@
     <string name="no_vpn_support_image">Ihre Gerätefirmwäre unterstützt die VPNService-API nicht. Tut uns leid :(</string>
     <string name="encryption">Verschlüsselung</string>
     <string name="cipher_dialog_title">Geben Sie die Verschlüsselungsmethode an</string>
-    <string name="chipher_dialog_message">Von OpenVPN verwendete Verschlüsselungsalgorithmen für die Datenverschlüsselung, getrennt durch: (--data-cipher). Feld leer lassen, um den Standardwert AES-256-GCM:AES-128-GCM:CHACHA20-POLY1305 zu verwenden.</string>
+    <string name="cipher_dialog_message">Von OpenVPN verwendete Verschlüsselungsalgorithmen für die Datenverschlüsselung, getrennt durch: (--data-cipher). Feld leer lassen, um den Standardwert AES-256-GCM:AES-128-GCM:CHACHA20-POLY1305 zu verwenden.</string>
     <string name="auth_dialog_message">Geben Sie den Hashalgorithmus, der zur Nachrichtenauthentifizierung benutzt wird, an. Lassen Sie das Feld frei, um den Standard-Algorithmus zu nutzen.</string>
     <string name="settings_auth">Authentifizierung/Verschlüsselung</string>
     <string name="file_explorer_tab">Datei auswählen…</string>
