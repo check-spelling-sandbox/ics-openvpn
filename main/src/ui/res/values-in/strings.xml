@@ -347,7 +347,7 @@
     <string name="version_upto">%s dan sebelumnya</string>
     <string name="copy_of_profile">Salinan dari %s</string>
     <string name="ab_not_route_to_vpn_title">Alihkan ke alamat IP yang telah ditentukan</string>
-    <string name="custom_connection_options_warng">Tentukan pengaturan untuk koneksi khusus . Gunakan dengan hati-hati</string>
+    <string name="custom_connection_options_warning">Tentukan pengaturan untuk koneksi khusus . Gunakan dengan hati-hati</string>
     <string name="custom_connection_options">Pilihan buatan</string>
     <string name="remove_connection_entry">Hapus entri koneksi</string>
     <string name="version_and_later">%s dan yang lebih baru</string>

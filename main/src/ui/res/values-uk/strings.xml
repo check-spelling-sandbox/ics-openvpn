@@ -347,7 +347,7 @@
     <string name="version_upto">%s і раніше</string>
     <string name="copy_of_profile">Копія %s</string>
     <string name="ab_not_route_to_vpn_title">Шлях до налаштованого VPN IP адреса</string>
-    <string name="custom_connection_options_warng">Визначені параметри користувача при з\'єднанні. Будьте обережні!</string>
+    <string name="custom_connection_options_warning">Визначені параметри користувача при з\'єднанні. Будьте обережні!</string>
     <string name="custom_connection_options">Власні налаштовування</string>
     <string name="remove_connection_entry">Видалити запис підключення</string>
     <string name="version_and_later">%s і подальше</string>

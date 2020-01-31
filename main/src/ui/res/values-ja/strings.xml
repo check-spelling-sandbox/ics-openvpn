@@ -381,7 +381,7 @@ Android 4.4以上はポリシールーティングを使用します。route/ifc
     <string name="version_upto">%sおよびそれ以前</string>
     <string name="copy_of_profile">%sのコピー</string>
     <string name="ab_not_route_to_vpn_title">設定されたIPアドレスへの経路</string>
-    <string name="custom_connection_options_warng">カスタム指定の接続オプションを設定します。慎重に利用してください</string>
+    <string name="custom_connection_options_warning">カスタム指定の接続オプションを設定します。慎重に利用してください</string>
     <string name="custom_connection_options">カスタムオプション</string>
     <string name="remove_connection_entry">接続先設定を削除します</string>
     <string name="version_and_later">%s以降</string>

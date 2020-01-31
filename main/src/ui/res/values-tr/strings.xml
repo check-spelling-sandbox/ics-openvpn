@@ -348,7 +348,7 @@
     <string name="version_upto">%s ve önceki</string>
     <string name="copy_of_profile">%s kopyası</string>
     <string name="ab_not_route_to_vpn_title">Yapılandırılmış IP adresine yönlendir</string>
-    <string name="custom_connection_options_warng">Özel bağlantı seçeneklerini belirtin. Dikkatli kullanın</string>
+    <string name="custom_connection_options_warning">Özel bağlantı seçeneklerini belirtin. Dikkatli kullanın</string>
     <string name="custom_connection_options">Özel Seçenekler</string>
     <string name="remove_connection_entry">Bağlantı girdisini kaldır</string>
     <string name="version_and_later">%s ve daha sonrası</string>

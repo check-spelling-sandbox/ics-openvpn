@@ -342,7 +342,7 @@
     <string name="version_upto">%s in prejšnji</string>
     <string name="copy_of_profile">Kopija %s</string>
     <string name="ab_not_route_to_vpn_title">Pot do nastavljenega naslova IP</string>
-    <string name="custom_connection_options_warng">Določite možnosti za povezave po meri. Uporabljajte previdno.</string>
+    <string name="custom_connection_options_warning">Določite možnosti za povezave po meri. Uporabljajte previdno.</string>
     <string name="custom_connection_options">Možnosti po meri</string>
     <string name="remove_connection_entry">Odstrani vnos povezave</string>
     <string name="version_and_later">%s in kasnejši</string>
