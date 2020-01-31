@@ -347,7 +347,7 @@
     <string name="version_upto">%s és korábbi</string>
     <string name="copy_of_profile">%s másolata</string>
     <string name="ab_not_route_to_vpn_title">Útvonal a konfigurált IP címhez</string>
-    <string name="custom_connection_options_warng">Határozzon meg egyedi kapcsolat specifikus opciókat. Elővigyázatosan használja</string>
+    <string name="custom_connection_options_warning">Határozzon meg egyedi kapcsolat specifikus opciókat. Elővigyázatosan használja</string>
     <string name="custom_connection_options">Egyéni beállítások</string>
     <string name="remove_connection_entry">Kapcsolat bejegyzés eltávolítása</string>
     <string name="version_and_later">%s і больш познія</string>

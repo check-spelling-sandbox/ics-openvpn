@@ -355,7 +355,7 @@
     <string name="version_upto">%s and earlier</string>
     <string name="copy_of_profile">Copy of %s</string>
     <string name="ab_not_route_to_vpn_title">Route to the configured IP address</string>
-    <string name="custom_connection_options_warng">Specify custom connection specific options. Use with care</string>
+    <string name="custom_connection_options_warning">Specify custom connection specific options. Use with care</string>
     <string name="custom_connection_options">Custom Options</string>
     <string name="remove_connection_entry">Remove connection entry</string>
     <string name="version_and_later">%s and later</string>
