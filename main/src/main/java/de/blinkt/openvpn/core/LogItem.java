@@ -369,7 +369,7 @@ public class LogItem implements Parcelable {
             mdsha256.update(der);
             byte[] digestSha256 = mdsha256.digest();
 
-            if (Arrays.equals(digest, VpnStatus.officalkey))
+            if (Arrays.equals(digest, VpnStatus.officialkey))
                 apksign = c.getString(R.string.official_build);
             else if (Arrays.equals(digest, VpnStatus.officialdebugkey))
                 apksign = c.getString(R.string.debug_build);
