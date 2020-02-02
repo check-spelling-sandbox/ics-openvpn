@@ -129,7 +129,7 @@ You make your life and that of your users easier if you embed the certificates i
 
 Inline files are supported since OpenVPN 2.1rc1 and documented in the  [OpenVPN man page](https://openvpn.net/community-docs/community-articles/openvpn-2-7-manual.html) (under INLINE FILE SUPPORT) 
 
-(Using inline certifaces can also make your life on non-Android platforms easier since you only have one file.)
+(Using inline certificates can also make your life on non-Android platforms easier since you only have one file.)
 
 For example `ca mycafile.pem` becomes
 ```
