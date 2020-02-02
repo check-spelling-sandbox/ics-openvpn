@@ -93,7 +93,7 @@ issues or emailing me.
 
 Also, please note that before contributing to the project that I would like to retain 
 my ability to relicense the project for different third parties and therefore probably 
-need a contributer's agreement from any contributing party. To get started, 
+need a contributor's agreement from any contributing party. To get started, 
 [sign the Contributor License Agreement](doc/CLA.md).
 
 You can help
