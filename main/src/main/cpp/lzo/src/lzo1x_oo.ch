@@ -215,7 +215,7 @@ match:
                         goto copy_m;
 
                     nl = ip[-2] & 3;
-                    /* test if in beetween two long literal runs */
+                    /* test if in between two long literal runs */
                     if (t == 1 && lit > 3 && nl == 0 &&
                         ip[0] < 16 && ip[0] != 0 && (lit + 3 + ip[0] < 16))
                     {
@@ -269,7 +269,7 @@ match:
                         goto copy_m;
 
                     nl = ip[-2] & 3;
-                    /* test if in beetween two matches */
+                    /* test if in between two matches */
                     if (t == 1 && lit == 0 && nl == 0 && ip[0] >= 16)
                     {
                         assert(litp == ip - 3 - lit - 2);
