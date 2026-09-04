@@ -222,7 +222,7 @@ class ConfigConverter : BaseActivity(), FileSelectCallback, View.OnClickListener
         val vpl = ProfileManager.getInstance(this)
 
         if (!TextUtils.isEmpty(mEmbeddedPwFile))
-            ConfigParser.useEmbbedUserAuth(mResult, mEmbeddedPwFile)
+            ConfigParser.useEmbedUserAuth(mResult, mEmbeddedPwFile)
 
         vpl.addProfile(mResult)
         mResult?.addChangeLogEntry("Profile created via ConfigConverter")
