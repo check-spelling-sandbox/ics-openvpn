@@ -4,6 +4,9 @@ msgid ".*"|"(?:Project-Id-Version|MIME-Version|Content-Type|Content-Transfer-Enc
 # printf named terms
 %\(\w+\)[sd]\b
 
+# android localization keys
+<string name=".+?">
+
 # Repeated letters
 \b([A-Za-z])\g{-1}{2,}\b
 
