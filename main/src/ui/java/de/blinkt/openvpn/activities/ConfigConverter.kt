@@ -142,7 +142,7 @@ class ConfigConverter : BaseActivity(), FileSelectCallback, View.OnClickListener
             mResult!!.mTlSCertProfile = selectedTLSProfile
         }
 
-        /* If you need compability with such an old version or such a low security profile
+        /* If you need compatibility with such an old version or such a low security profile
          * there is a high chance that the legacy provider is needed as well */
         if (mResult!!.mCompatMode in 1..20400 || selectedTLSProfile == "insecure")
             mResult!!.mUseLegacyProvider = true;
