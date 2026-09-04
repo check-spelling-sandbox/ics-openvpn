@@ -1,0 +1,3 @@
+^\.github/actions/spelling
+^(?!main/src/ui/res/)
+^main/src/ui/res/values-de/plurals\.xml$
