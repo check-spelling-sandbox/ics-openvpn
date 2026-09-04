@@ -1,0 +1,3 @@
+^\.github/actions/spelling
+^main/src/main/res/values-tr/bools\.xml$
+^main/src/ui/res/values-tr/plurals\.xml$

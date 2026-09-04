@@ -1,0 +1,2 @@
+^\.github/actions/spelling
+^main/src/ui/res/values-ro/plurals\.xml$

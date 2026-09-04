@@ -1,0 +1,14 @@
+# version suffix <word>v#
+(?:(?<=[A-Z]{2})V|(?<=[a-z]{2}|[A-Z]{2})v)\d+(?:\b|(?=[a-zA-Z_]))
+
+# https/http/file urls
+(?:\b(?:https?|ftp|file)://)[-A-Za-z0-9+&@#/*%?=~_|!:,.;\\]+[-A-Za-z0-9+&@#/*%=~_|]
+
+# copyright
+Copyright (?:\([Cc]\)|©|)(?:[-\d, ]|and)+(?: [A-Z][a-z]+ [A-Z][a-z]+,?)+
+
+# Repeated letters
+\b([A-Za-z])\g{-1}{2,}\b
+
+# IPv6
+\b(?:[0-9a-fA-F]{0,4}:){3,7}[0-9a-fA-F]{0,4}\b
