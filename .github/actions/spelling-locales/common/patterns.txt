@@ -1,0 +1,114 @@
+# OpenVPN Technologies, Inc
+OpenVPN Technologies, Inc
+
+# android localization keys
+<(?:string(?:-array|)|plurals) name=".+?">|</(?:string(?:-array|)|plurals)>|</?(?:item(?: quantity=".*"|)|resources)>
+
+# version suffix <word>v#
+(?:(?<=[A-Z]{2})V|(?<=[a-z]{2}|[A-Z]{2})v)\d+(?:\b|(?=[a-zA-Z_]))
+
+# https/http/file urls
+(?:\b(?:https?|ftp|file)://)[-A-Za-z0-9+&@#/*%?=~_|!:,.;\\]+[-A-Za-z0-9+&@#/*%=~_|]
+
+# copyright
+Copyright (?:\([Cc]\)|©|)(?:[-\d, ]|and)+(?: [A-Z][a-z]+ [A-Z][a-z]+,?)+
+
+# Repeated letters
+\b([A-Za-z])\g{-1}{2,}\b
+
+# IPv6
+\b(?:[0-9a-fA-F]{0,4}:){3,7}[0-9a-fA-F]{0,4}\b
+
+# not translatable
+<item translatable="false">.*</item>
+
+# adb shell
+adb shell
+
+# activity manager (?)
+\bam [-\w\s]+
+
+# xml image source identifiers
+&lt;img src=\\".*?\\"/&gt;
+
+# Certificate
+\QC=DE, L=Paderborn, OU=Avian IP Carriers, CN=openvpn.blinkt.de\E
+
+\bPlay Store\b
+\bPowersave\b
+\bNIST\b
+\bMSS\b
+
+# openvpn domain
+\Qopenvpn.blinkt.de\E
+
+# xml header
+\Q<?xml version="1.0" encoding="utf-8"?>\E
+
+# AUTH_FAILED
+\bAUTH_FAILED\b
+
+# SSL23_GET_SERVER_HELLO
+SSL23_GET_SERVER_HELLO
+
+# sslv3 alert handshake failure
+sslv3 alert handshake failure
+
+# Always on VPN
+\bAlways on VPN\b
+
+# PFS
+\QPerfect Forward Secrecy (Diffie-Hellman)\E
+
+# RSM
+\QThe Radio State Machine | Android Developers\E
+
+# /dev/tun
+\b/dev/tun\b
+
+# ip tables
+\biptables -t mangle -L\b
+
+# bit-rate
+\b[MGk]?bit/s\b
+
+# enable-small
+\b--enable-small(?!\w)
+
+# tls-auth [- ][--direction [not specified]]
+\btls-auth (?:- |)--direction(?: not specified|)\b
+
+# tls-crypt
+\b--tls-crypt(?!\w)
+
+# tls cipher-suite list
+\b\QDEFAULT:!EXP:!PSK:!SRP:!kRSA\E(?!\w)
+
+# tls algorithms
+\bAES-256-GCM:AES-128-GCM:CHACHA20-POLY1305(?!\w)
+
+# verify-x509-name
+verify-x509-name
+
+# OpenVPN
+OpenVPN (?:Connect|Settings)
+
+# api.ConnectVPN
+\bapi\.(?:C|Disc)onnectVPN\b
+
+# openssl
+\b--data-ciphers\b
+
+# android.intent.action.*
+\b\Qandroid.intent.action.\E(?:BOOT_COMPLETED|CREATE_SHORTCUT|GET_RESTRICTION_ENTRIES|MAIN|MY_PACKAGE_REPLACED|START|STATUS|VIEW)(?!\w)
+
+# Remote Server Certificate Subject DN
+\bRemote Server Certificate Subject DN\b
+
+# Quick Settings [Tile]
+\b(?:Quick Settings(?: Tile|))\b
+
+# Why TCP Over TCP Is a Bad Idea
+\bWhy TCP Over TCP Is A Bad Idea\b
+
+&amp;

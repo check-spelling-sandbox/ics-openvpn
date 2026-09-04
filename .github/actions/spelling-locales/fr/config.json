@@ -1,0 +1,25 @@
+{
+  "ignore-pattern": "[^'a-zàâæçœéèêëîïôùûüÿA-ZÀÂÆÇŒÉÈÊËÎÏÔÙÛÜŸ]",
+  "upper-pattern": "[A-ZÀÂÆÇŒÉÈÊËÎÏÔÙÛÜŸ]",
+  "lower-pattern": "[a-zàâæçœéèêëîïôùûüÿ]",
+  "not-lower-pattern": "[^a-zàâæçœéèêëîïôùûüÿ]",
+  "not-upper-or-lower-pattern": "[^A-ZÀÂÆÇŒÉÈÊËÎÏÔÙÛÜŸa-zàâæçœéèêëîïôùûüÿ]",
+  "punctuation-pattern": "'",
+  "allow-hunspell": true,
+  "dictionary_url": "https://raw.githubusercontent.com/check-spelling/spell-check-this/8b55e6b61a523f53712b749e5e3083cf72984c3b/.github/actions/spelling/expect.txt",
+  "dictionary_source_prefixes": {
+    "asm": "https://raw.githubusercontent.com/check-spelling/assembly-dictionaries/20231110/",
+    "cspell": "https://raw.githubusercontent.com/check-spelling/cspell-dicts/v20230509/dictionaries/",
+    "cspell1": "https://raw.githubusercontent.com/check-spelling/cspell-dicts/v20241114/dictionaries/",
+    "census": "https://raw.githubusercontent.com/check-spelling-sandbox/census/dictionaries-d90e686f89dd241ad61d30f26619e54d73e73c6e/dictionaries/"
+  },
+  "check_extra_dictionaries": [],
+  "extra_dictionaries": [
+    "cspell1:software-terms/softwareTerms.txt",
+    "cspell:fr_FR/src/hunspell-french-dictionaries-v7.0/fr-classique.dic",
+    "cspell:node/dict/node.txt",
+    "cspell:npm/dict/npm.txt",
+    "cspell:html/dict/html.txt",
+    ""
+  ]
+}
