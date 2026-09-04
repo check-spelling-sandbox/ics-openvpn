@@ -25,7 +25,7 @@ long as the main repo url is on github):
   git submodule update
 
 Build the project using "gradle build" (Or use Android Studio). Ensure that
-the swig executable is the path, otherwise the build will fail.
+the swig executable is the path; otherwise, the build will fail.
 
 Android studio tends to the whole build of binaries in its sync gradle
 phase to 15 minutes for initial gradle sync are completely normal.
