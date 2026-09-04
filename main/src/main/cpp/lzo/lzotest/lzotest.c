@@ -254,7 +254,7 @@ static double total_perc = 0.0;
 static const char *total_method_name = NULL;
 static unsigned total_method_names = 0;
 /* Note: the average value of a rate (e.g. compression speed) is defined
- * by the Harmonic Mean (and _not_ by the Arithmethic Mean ) */
+ * by the Harmonic Mean (and _not_ by the Arithmetic Mean ) */
 static unsigned long total_c_mbs_n = 0;
 static unsigned long total_d_mbs_n = 0;
 static double total_c_mbs_harmonic = 0.0;
