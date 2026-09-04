@@ -382,7 +382,7 @@ public class VpnProfile implements Serializable, Cloneable {
     }
 
     /**
-     * Adds an changelog/audit entry to the profile. The date of the entry will be the current time
+     * Adds a changelog/audit entry to the profile. The date of the entry will be the current time
      */
     public void addChangeLogEntry(String message) {
         while (changesLog.size() > 50)
