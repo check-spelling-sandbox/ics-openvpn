@@ -130,7 +130,7 @@ public class ConfigParser {
     private HashMap<String, Vector<String>> meta = new HashMap<String, Vector<String>>();
     private String auth_user_pass_file;
 
-    static public void useEmbbedUserAuth(VpnProfile np, String inlinedata) {
+    static public void useEmbedUserAuth(VpnProfile np, String inlinedata) {
         String data = VpnProfile.getEmbeddedContent(inlinedata);
         String[] parts = data.split("\n");
         if (parts.length >= 2) {
@@ -139,7 +139,7 @@ public class ConfigParser {
         }
     }
 
-    static public void useEmbbedHttpAuth(Connection c, String inlinedata) {
+    static public void useEmbedHttpAuth(Connection c, String inlinedata) {
         String data = VpnProfile.getEmbeddedContent(inlinedata);
         String[] parts = data.split("\n");
         if (parts.length >= 2) {
@@ -725,7 +725,7 @@ public class ConfigParser {
                 if (!authuser.get(1).startsWith(VpnProfile.INLINE_TAG))
                     auth_user_pass_file = authuser.get(1);
                 np.mUsername = null;
-                useEmbbedUserAuth(np, authuser.get(1));
+                useEmbedUserAuth(np, authuser.get(1));
             }
         }
 
@@ -892,7 +892,7 @@ public class ConfigParser {
 
         Vector<String> httpproxyauthhttp = getOption("http-proxy-user-pass", 1, 1);
         if (httpproxyauthhttp != null)
-            useEmbbedHttpAuth(conn, httpproxyauthhttp.get(1));
+            useEmbedHttpAuth(conn, httpproxyauthhttp.get(1));
 
 
         // Parse remote config
