@@ -99,7 +99,7 @@ public class VpnProfile implements Serializable, Cloneable {
     private static final String EXTRA_DIGEST = "de.blinkt.openvpn.api.DIGEST";
     public static String DEFAULT_DNS1 = "9.9.9.9";
     public static String DEFAULT_DNS2 = "2620:fe::fe";
-    // variable named wrong and should haven beeen transient
+    // variable named wrong and should have been transient
     // but needs to keep wrong name to guarantee loading of old
     // profiles
     public transient boolean profileDeleted = false;
