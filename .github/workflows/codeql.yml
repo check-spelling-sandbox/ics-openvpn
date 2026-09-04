@@ -81,7 +81,7 @@ jobs:
     # 📚 See https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#jobsjob_idstepsrun
     - if: matrix.build-mode == 'manual'
       name: Setup Android SDK
-      uses: android-actions/setup-android@v3
+      uses: android-actions/setup-android@v4
 
     - if: matrix.build-mode == 'manual'
       name: Use debug signing
@@ -89,7 +89,7 @@ jobs:
       
     - if: matrix.build-mode == 'manual'
       name: Setup Android SDK
-      uses: android-actions/setup-android@v3
+      uses: android-actions/setup-android@v4
   
     - if: matrix.build-mode == 'manual'
       name: Build the app
