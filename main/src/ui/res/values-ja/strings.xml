@@ -467,7 +467,7 @@ Android 4.4以上はポリシールーティングを使用します。route/ifc
     <string name="openvpn3_socksproxy">OpenVPN 3 C++実装は、Socksプロキシ経由の接続をサポートしません</string>
     <string name="no_orbotfound">Orbotアプリが見つかりません。Orbotをインストールするか手動Socks v5統合を使用してください</string>
     <string name="faq_remote_api_title">リモートAPI</string>
-    <string name="faq_remote_api">OpenVPN for Androidは2つのリモートAPIをサポートします。AIDLによる洗練されたAPI(gitリポジトリのremoteEXample)およびIntentを使用したシンプルなものです。&lt;p&gt;adbシェルとIntentを使用した例です。profilenameをあなたのプロファイル名に置き換えてください。&lt;p&gt;&lt;p&gt; adb shell am start-activity -a android.intent.action.MAIN de.blinkt.openvpn/.api.DisconnectVPN&lt;p&gt; adb shell am start-activity -a android.intent.action.MAIN -e de.blinkt.openvpn.api.profileName Blinkt de.blinkt.openvpn/.api.ConnectVPN</string>
+    <string name="faq_remote_api">OpenVPN for Androidは2つのリモートAPIをサポートします。AIDLによる洗練されたAPI(gitリポジトリのremoteExample)およびIntentを使用したシンプルなものです。&lt;p&gt;adbシェルとIntentを使用した例です。profilenameをあなたのプロファイル名に置き換えてください。&lt;p&gt;&lt;p&gt; adb shell am start-activity -a android.intent.action.MAIN de.blinkt.openvpn/.api.DisconnectVPN&lt;p&gt; adb shell am start-activity -a android.intent.action.MAIN -e de.blinkt.openvpn.api.profileName Blinkt de.blinkt.openvpn/.api.ConnectVPN</string>
     <string name="enableproxyauth">プロキシ認証を有効にする</string>
     <string name="error_orbot_and_proxy_options">http-proxy-option設定とOrbot統合は同時に使用できません</string>
     <string name="info_from_server">サーバからの情報: \'%s\'</string>

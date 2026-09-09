@@ -439,7 +439,7 @@
     <string name="openvpn3_socksproxy">OpenVPN 3 C++ implementation does not support connecting via Socks proxy</string>
     <string name="no_orbotfound">Неможливо знайти програму Orbot. Будь ласка, встановіть Orbot або скористайтеся ручною інтеграцією Socks v5.</string>
     <string name="faq_remote_api_title">Віддалений API</string>
-    <string name="faq_remote_api">OpenVPN для Android підтримує два віддалені API: складний API що використовує AIDL (remoteEXample в репозиторії git) та простий з використанням Intents.&lt;p&gt;Приклади використання оболонки adb и intents. Замініть profileName на назву вашої конфігурації&lt;p&gt;&lt;p&gt; adb shell am start-activity -a android.intent.action.MAIN de.blinkt.openvpn/.api.DisconnectVPN&lt;p&gt; adb shell am start-activity -a android.intent.action.MAIN -e de.blinkt.openvpn.api.profileName Blinkt de.blinkt.openvpn/.api.ConnectVPN</string>
+    <string name="faq_remote_api">OpenVPN для Android підтримує два віддалені API: складний API що використовує AIDL (remoteExample в репозиторії git) та простий з використанням Intents.&lt;p&gt;Приклади використання оболонки adb и intents. Замініть profileName на назву вашої конфігурації&lt;p&gt;&lt;p&gt; adb shell am start-activity -a android.intent.action.MAIN de.blinkt.openvpn/.api.DisconnectVPN&lt;p&gt; adb shell am start-activity -a android.intent.action.MAIN -e de.blinkt.openvpn.api.profileName Blinkt de.blinkt.openvpn/.api.ConnectVPN</string>
     <string name="enableproxyauth">Увімкнути аутентифікацію проксі</string>
     <string name="error_orbot_and_proxy_options">Неможливо використовувати додаткові оператори http-proxy-option та інтеграцію Orbot одночасноO</string>
     <string name="info_from_server">Інформація з сервера: \'%s\'</string>

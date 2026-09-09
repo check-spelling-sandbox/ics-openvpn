@@ -446,7 +446,7 @@
     <string name="openvpn3_socksproxy">OpenVPN 3 C ++ uygulaması, Socks vekil sunucusu üzerinden bağlanmayı desteklemiyor</string>
     <string name="no_orbotfound">Orbot uygulaması bulunamadı. Lütfen Orbot\'u kurun veya elle Socks v5 bütünleştirmesini kullanın.</string>
     <string name="faq_remote_api_title">Uzak API</string>
-    <string name="faq_remote_api">Android için OpenVPN iki uzak API\'yi destekler: AIDL kullanan gelişmiş bir API (git deposundaki remoteEXample) ve Intent kullanan basit API.&lt;p&gt; Örnekler adb kabuğunu ve \"intent\"leri kullanıyor. \"profilname\" kısmını kendi profil isminizle değiştirin&lt;p&gt;&lt;p&gt;adb shell am start-activity -a android.intent.action.MAIN de.blinkt.openvpn/.api.DisconnectVPN&lt;p&gt; adb shell am start-activity -a android.intent.action.MAIN -e de.blinkt.openvpn.api.profileName Blinkt de.blinkt.openvpn/.api.ConnectVPN</string>
+    <string name="faq_remote_api">Android için OpenVPN iki uzak API\'yi destekler: AIDL kullanan gelişmiş bir API (git deposundaki remoteExample) ve Intent kullanan basit API.&lt;p&gt; Örnekler adb kabuğunu ve \"intent\"leri kullanıyor. \"profilname\" kısmını kendi profil isminizle değiştirin&lt;p&gt;&lt;p&gt;adb shell am start-activity -a android.intent.action.MAIN de.blinkt.openvpn/.api.DisconnectVPN&lt;p&gt; adb shell am start-activity -a android.intent.action.MAIN -e de.blinkt.openvpn.api.profileName Blinkt de.blinkt.openvpn/.api.ConnectVPN</string>
     <string name="enableproxyauth">Vekil Sunucu Kimlik Doğrulamasını Etkinleştir</string>
     <string name="error_orbot_and_proxy_options">Ek http-proxy-option ifadesi ve Orbot tümleşimi aynı anda kullanılamaz</string>
     <string name="info_from_server">Sunucudan gelen bilgi: \'%s\'</string>
