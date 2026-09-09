@@ -431,7 +431,7 @@
     <string name="openvpn3_socksproxy">Implementácia OpenVPN 3 C ++ nepodporuje pripojenie cez proxy Socks</string>
     <string name="no_orbotfound">Aplikácia Orbot sa nedá nájsť. Nainštalujte si Orbot alebo použite manuálnu integráciu Socks v5.</string>
     <string name="faq_remote_api_title">Vzdialené API</string>
-    <string name="faq_remote_api">OpenVPN pre Android podporuje dve vzdialené API, sofistikované API využívajúce AIDL (remoteEXample v úložisku git) a jednoduché pomocou Intents. &lt;p&gt;Príklady použitia škrupiny adb a zámerov. Nahraďte profilovým menom profilové meno&lt;p&gt;&lt;p&gt; adb shell am start-activity -a android.intent.action.MAIN de.blinkt.openvpn / .api.DisconnectVPN&lt;p&gt; adb shell am start-activity -a android.intent.action.MAIN - e de.blinkt.openvpn.api.profileName Blinkt de.blinkt.openvpn / .api.ConnectVPN</string>
+    <string name="faq_remote_api">OpenVPN pre Android podporuje dve vzdialené API, sofistikované API využívajúce AIDL (remoteExample v úložisku git) a jednoduché pomocou Intents. &lt;p&gt;Príklady použitia škrupiny adb a zámerov. Nahraďte profilovým menom profilové meno&lt;p&gt;&lt;p&gt; adb shell am start-activity -a android.intent.action.MAIN de.blinkt.openvpn / .api.DisconnectVPN&lt;p&gt; adb shell am start-activity -a android.intent.action.MAIN - e de.blinkt.openvpn.api.profileName Blinkt de.blinkt.openvpn / .api.ConnectVPN</string>
     <string name="enableproxyauth">Zapni overenie s proxy</string>
     <string name="error_orbot_and_proxy_options">Nie je možné použiť dodatočný príkaz http-proxy-option a integráciu Orbotu súčasneO</string>
     <string name="info_from_server">Informácie zo servera: \'%s\'</string>

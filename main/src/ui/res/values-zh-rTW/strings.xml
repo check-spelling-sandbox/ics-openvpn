@@ -431,7 +431,7 @@
     <string name="openvpn3_socksproxy">OpenVPN 3 C++ 實作並不支援使用 Socks proxy 的連線方式</string>
     <string name="no_orbotfound">找不到 Orbot 應用程式。請安裝 Orbot 或使用手動 Socks v5 整合。</string>
     <string name="faq_remote_api_title">遠端 API</string>
-    <string name="faq_remote_api">OpenVPN for Android 支援兩種遠端 API，一種是使用 AIDL（Git 中的 remoteEXample）的複雜 API，和一種使用 Intent 的簡單 API。&lt;p&gt;以 adb shell 及 Intent 為例。將 profilname 替換為你的設定值名稱&lt;p&gt;&lt;p&gt; adb shell am start-activity -a android.intent.action.MAIN de.blinkt.openvpn/.api.DisconnectVPN&lt;p&gt; adb shell am start-activity -a android.intent.action.MAIN -e de.blinkt.openvpn.api.profileName Blinkt de.blinkt.openvpn/.api.ConnectVPN</string>
+    <string name="faq_remote_api">OpenVPN for Android 支援兩種遠端 API，一種是使用 AIDL（Git 中的 remoteExample）的複雜 API，和一種使用 Intent 的簡單 API。&lt;p&gt;以 adb shell 及 Intent 為例。將 profilname 替換為你的設定值名稱&lt;p&gt;&lt;p&gt; adb shell am start-activity -a android.intent.action.MAIN de.blinkt.openvpn/.api.DisconnectVPN&lt;p&gt; adb shell am start-activity -a android.intent.action.MAIN -e de.blinkt.openvpn.api.profileName Blinkt de.blinkt.openvpn/.api.ConnectVPN</string>
     <string name="enableproxyauth">啟用 Proxy 驗證</string>
     <string name="error_orbot_and_proxy_options">無法在同個時間複雜度底下同時使用額外的 http-proxy-option 以及 Orbot 整合</string>
     <string name="info_from_server">來自伺服器的訊息：「%s」</string>

@@ -435,7 +435,7 @@
     <string name="openvpn3_socksproxy">OpenVPN 3 C++ ක්‍රියාත්මක කිරීම Socks proxy හරහා සම්බන්ධ වීමට සහාය නොදක්වයි</string>
     <string name="no_orbotfound">Orbot යෙදුම සොයාගත නොහැක. කරුණාකර Orbot ස්ථාපනය කරන්න හෝ අතින් Socks v5 ඒකාබද්ධ කිරීම භාවිතා කරන්න.</string>
     <string name="faq_remote_api_title">දුරස්ථ යෙ.ක්‍ර. අ.මු.</string>
-    <string name="faq_remote_api">Android සඳහා OpenVPN දුරස්ථ API දෙකක් සඳහා සහය දක්වයි, AIDL භාවිතා කරන නවීන API (git repository හි remoteEXample) සහ Intents භාවිතා කරන සරල එකක්. &lt;p&gt;adb shell සහ අභිප්‍රායන් භාවිතා කරන උදාහරණ. ඔබේ පැතිකඩ නම&lt;p&gt;&lt;p&gt; adb shell am start-activity -a android.intent.action.MAIN de.blinkt.openvpn/.api.DisconnectVPN&lt;p&gt; adb shell am start-activity -a android.intent.action.MAIN - සමඟ පැතිකඩ නාමය ප්‍රතිස්ථාපනය කරන්න. e de.blinkt.openvpn.api.profileName Blinkt de.blinkt.openvpn/.api.ConnectVPN</string>
+    <string name="faq_remote_api">Android සඳහා OpenVPN දුරස්ථ API දෙකක් සඳහා සහය දක්වයි, AIDL භාවිතා කරන නවීන API (git repository හි remoteExample) සහ Intents භාවිතා කරන සරල එකක්. &lt;p&gt;adb shell සහ අභිප්‍රායන් භාවිතා කරන උදාහරණ. ඔබේ පැතිකඩ නම&lt;p&gt;&lt;p&gt; adb shell am start-activity -a android.intent.action.MAIN de.blinkt.openvpn/.api.DisconnectVPN&lt;p&gt; adb shell am start-activity -a android.intent.action.MAIN - සමඟ පැතිකඩ නාමය ප්‍රතිස්ථාපනය කරන්න. e de.blinkt.openvpn.api.profileName Blinkt de.blinkt.openvpn/.api.ConnectVPN</string>
     <string name="enableproxyauth">Proxy Authentication සබල කරන්න</string>
     <string name="error_orbot_and_proxy_options">අමතර http-proxy-option ප්‍රකාශය සහ Orbot ඒකාබද්ධ කිරීම එකවර භාවිතා කළ නොහැක</string>
     <string name="info_from_server">සේවාදායකයෙන් තොරතුරු: \'%s\'</string>
