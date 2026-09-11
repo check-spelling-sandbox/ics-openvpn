@@ -236,8 +236,8 @@ public class OpenVPNService extends VpnService implements StateListener, Callbac
     @Override
     public void onRevoke() {
         VpnStatus.logError(R.string.permission_revoked);
-        final OpenVPNManagement managment = mManagement;
-        mCommandHandler.post(() -> managment.stopVPN(false));
+        final OpenVPNManagement management = mManagement;
+        mCommandHandler.post(() -> management.stopVPN(false));
 
         endVpnService();
     }
@@ -752,10 +752,10 @@ public class OpenVPNService extends VpnService implements StateListener, Callbac
 
 
     private void stopOldOpenVPNProcess(OpenVPNManagement management,
-                                       Runnable mamanagmentThread) {
+                                       Runnable managementThread) {
         if (management != null) {
-            if (mamanagmentThread != null)
-                ((OpenVPNThread) mamanagmentThread).setReplaceConnection();
+            if (managementThread != null)
+                ((OpenVPNThread) managementThread).setReplaceConnection();
             if (management.stopVPN(true)) {
                 // an old was asked to exit, wait 1s
                 try {
