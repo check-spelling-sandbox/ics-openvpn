@@ -68,7 +68,7 @@
     <string name="enter_tlscn_dialog">Especifica el chequeo usado para verificar el certificado remoto DN (ej. C=DE, L=Paderborn, OU=Avian IP Carriers, CN=openvpn.blinkt.de)\n\nEspecifica el DN completo o el RDN (openvpn.blinkt.de en el ejemplo) o un prefijo RDN para la verificación.\n\nCuando se usa un prefijo RDN como \"Server\" este coincide también con \"Server-1\" y \"Server-2\"\n\nDejando el campo de texto vacío verificara el RDN contra el nombre host del servidor.\n\nPara más detalles ve la página de manual (manpage) de OpenVPN 2.3.1+ en --verify-x509-name</string>
     <string name="enter_tlscn_title">Sujeto del Certificado Remoto</string>
     <string name="pull_on_summary">Obtener Direcciones IP, rutas y opciones de sincronizacion del servidor.</string>
-    <string name="pull_off_summary">No se pedira informacion del servidor. Necesita especifiar la configuracion abajo.</string>
+    <string name="pull_off_summary">No se pedira informacion del servidor. Necesita especifiar la configuración abajo.</string>
     <string name="use_pull">Obtener Configuracion</string>
     <string name="dns">DNS</string>
     <string name="override_dns">Reemplazar la configuración DNS del Servidor</string>
@@ -137,7 +137,7 @@
     <string name="import_content_resolve_error">No se pudo leer el perfil a importar</string>
     <string name="error_reading_config_file">Error al leer el archivo de configuración</string>
     <string name="add_profile">Añadir perfil</string>
-    <string name="import_could_not_open">No se pudo encontrar el archivo %1$s mencionado en el archivo de configuracion importado</string>
+    <string name="import_could_not_open">No se pudo encontrar el archivo %1$s mencionado en el archivo de configuración importado</string>
     <string name="importing_config">Importando archivo de configuración del origen %1$s</string>
     <string name="import_warning_custom_options">Su configuración tiene algunas opciones de configuración que no están establecidas en la interfaz de usuario . Estas opciones fueron agregadas como opciones de configuración personalizadas. A continuación se muestra la configuración personalizada:</string>
     <string name="import_done">Se termino de leer el archivo de configuración.</string>
@@ -257,7 +257,7 @@ hacia/de Móvil)</string>
     <string name="add">Añadir</string>
     <string name="send_config">Enviar el archivo de configuración</string>
     <string name="complete_dn">DN Completo</string>
-    <string name="remotetlsnote">La configuracion que importaste usa la opcion OBSOLETA tls-remote que usa un formato diferente para DN.</string>
+    <string name="remotetlsnote">La configuración que importaste usa la opcion OBSOLETA tls-remote que usa un formato diferente para DN.</string>
     <string name="rdn">RDN (nombre comun)</string>
     <string name="rdn_prefix">Prefijo RDN</string>
     <string name="tls_remote_deprecated">tls-remote (OBSOLETO)</string>
