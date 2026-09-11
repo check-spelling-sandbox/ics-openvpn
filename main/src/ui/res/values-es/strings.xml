@@ -112,7 +112,7 @@
     <string name="ics_openvpn_log_file">Archivo de registro de OpenVPN de ICS</string>
     <string name="copied_entry">Entrada de registro copiada al Portapapeles</string>
     <string name="tap_mode">Modo Tap</string>
-    <string name="faq_tap_mode">El Modo tap no es posible sin la API VPN de root. Por lo tanto la aplicacion no puede dar soporte a tap</string>
+    <string name="faq_tap_mode">El Modo tap no es posible sin la API VPN de root. Por lo tanto la aplicación no puede dar soporte a tap</string>
     <string name="tap_faq2">¿Otra vez? ¿Estás bromeando? No, el modo tap realmente no está soportado y enviar más correos preguntando si será soportado no ayudará.</string>
     <string name="tap_faq3">¿Una tercera vez? En realidad se podría escribir un emulador de tap basado en tun que podria agregar información layer2 al enviar y obtener información layer2 al recibir. Pero este emulador tap tendría que implementar también ARP y posiblemente un cliente DHCP. No sé de alguien que este realizando trabajo en esa dirección. Ponte en contacto conmigo si deseas iniciar la codificación de esto.</string>
     <string name="faq">P+F</string>
