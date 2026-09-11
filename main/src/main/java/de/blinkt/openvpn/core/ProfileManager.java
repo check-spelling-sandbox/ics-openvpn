@@ -263,7 +263,7 @@ public class ProfileManager {
         final HashSet<String> vpn_list = new HashSet<>(profiles.keySet());
         editor.putStringSet("vpnlist", vpn_list);
 
-        // For reasing I do not understand at all
+        // For reasons I do not understand at all
         // Android saves my prefs file only one time
         // if I remove the debug code below :(
         int counter = sharedprefs.getInt("counter", 0);
