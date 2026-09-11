@@ -11,7 +11,7 @@ import org.junit.Test
 class TestLog {
 
     @Test
-    fun testMarschTooLong()
+    fun testMarshTooLong()
     {
         /* generate a string that is 16k long */
         var longtsring = "";
