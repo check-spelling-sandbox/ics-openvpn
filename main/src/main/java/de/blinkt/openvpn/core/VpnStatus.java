@@ -332,12 +332,12 @@ public class VpnStatus {
     }
 
     private static ConnectionStatus getLevel(String state) {
-        String[] noreplyet = {"CONNECTING", "WAIT", "RECONNECTING", "RESOLVE", "TCP_CONNECT"};
+        String[] noreplyyet = {"CONNECTING", "WAIT", "RECONNECTING", "RESOLVE", "TCP_CONNECT"};
         String[] reply = {"AUTH", "GET_CONFIG", "ASSIGN_IP", "ADD_ROUTES", "AUTH_PENDING"};
         String[] connected = {"CONNECTED"};
         String[] notconnected = {"DISCONNECTED", "EXITING"};
 
-        for (String x : noreplyet)
+        for (String x : noreplyyet)
             if (state.equals(x))
                 return ConnectionStatus.LEVEL_CONNECTING_NO_SERVER_REPLY_YET;
 
