@@ -166,7 +166,7 @@
     <string name="generated_config_summary">Muestra el archivo de configuración OpenVPN generado</string>
     <string name="edit_profile_title">Editando \"%s\"</string>
     <string name="building_configuration">Construyendo configuracion&#8230;</string>
-    <string name="netchange_summary">Activando esta opción forzara una reconexión si el estado de la red es cambiado (Ej. De/hacia WIFi
+    <string name="netchange_summary">Activando esta opción forzara una reconexión si el estado de la red es cambiado (Ej. De/hacia WiFi
 hacia/de Móvil)</string>
     <string name="netchange">Reconectar en cambio de red</string>
     <string name="netstatus">Estado de la red: %s</string>
