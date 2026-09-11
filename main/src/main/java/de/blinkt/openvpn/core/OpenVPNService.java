@@ -661,7 +661,7 @@ public class OpenVPNService extends VpnService implements StateListener, Callbac
 
 
         /* we get an empty start request or explicitly get told to not replace the VPN then ignore
-         * a start request. This avoids OnBootreciver, Always and user quickly clicking to have
+         * a start request. This avoids OnBootReciever, Always and user quickly clicking to have
          * weird race conditions
          */
         if (mProfile != null && mProfile == vp && (intent == null || noReplaceRequested))
