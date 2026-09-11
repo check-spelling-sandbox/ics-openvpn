@@ -102,7 +102,7 @@
     <string name="routes_info_incl">Rutas: %1$s %2$s</string>
     <string name="routes_info_excl">Rutas excluidas: %1$s %2$s</string>
     <string name="routes_debug">Rutas instaladas por VpnService: %1$s %2$s</string>
-    <string name="ip_not_cidr">Información de la interfaz obtenida %1$s and %2$s, asumiendo que la segunda dirección es una dirección equivalente del remoto. Usando una máscara de red /32 para la IP local. El modo dado por OpenVPN es \"%3$s\".</string>
+    <string name="ip_not_cidr">Información de la interfaz obtenida %1$s y %2$s, asumiendo que la segunda dirección es una dirección equivalente del remoto. Usando una máscara de red /32 para la IP local. El modo dado por OpenVPN es \"%3$s\".</string>
     <string name="route_not_cidr">No tienen sentido %1$s y %2$s como ruta IP con máscara de red CIDR, usando /32 como máscara de red.</string>
     <string name="route_not_netip">Ruta conectada de %1$s/%2$s a %3$s/%2$s</string>
     <string name="keychain_access">No se puede acceder a los certificados de Android. Puede ser causado por una actualización de firmware o por restaurar una copia de seguridad de la aplicación/configuración de la aplicación. Por favor edite la VPN y vuelva a seleccionar el certificado bajo meltdownajustes básicos para recrear los permisos para acceder al certificado.</string>
