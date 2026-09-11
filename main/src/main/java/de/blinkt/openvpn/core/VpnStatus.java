@@ -512,7 +512,7 @@ public class VpnStatus {
     }
 
     public static void logMessageOpenVPN(LogLevel level, int ovpnlevel, String message) {
-        /* Check for the weak md whe we have a message from OpenVPN */
+        /* Check for the weak md when we have a message from OpenVPN */
         newLogItem(new LogItem(level, ovpnlevel, message));
     }
 
