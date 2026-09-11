@@ -210,15 +210,15 @@ public class LogItem implements Parcelable {
     private void marschalString(String str, ByteBuffer bb) throws UnsupportedEncodingException {
         byte[] utf8bytes = str.getBytes(StandardCharsets.UTF_8);
 
-        byte[] elipse = {'.', '.', '.', '[','t','o','o', ' ', 'l','o','n','g',']'};
+        byte[] ellipse = {'.', '.', '.', '[','t','o','o', ' ', 'l','o','n','g',']'};
 
         int maxStringLength = Math.min(8192, bb.remaining()-128);
 
         if (utf8bytes.length > maxStringLength)
         {
-            bb.putInt(maxStringLength + elipse.length);
+            bb.putInt(maxStringLength + ellipse.length);
             bb.put(utf8bytes, 0, maxStringLength);
-            bb.put(elipse);
+            bb.put(ellipse);
         }
         else
         {
