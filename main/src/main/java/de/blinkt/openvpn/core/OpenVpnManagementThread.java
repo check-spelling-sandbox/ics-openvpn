@@ -456,7 +456,7 @@ public class OpenVpnManagementThread implements Runnable, OpenVPNManagement {
             VpnStatus.logError(String.format(Locale.ENGLISH, "OpenVPN is asking for a proxy of an unknown connection entry (%d)", connectionEntryNumber));
         }
 
-        // atuo detection of proxy
+        // auto detection of proxy
         if (proxyType == Connection.ProxyType.NONE && mProfile != null) {
             SocketAddress proxyaddr = ProxyDetection.detectProxy(mProfile);
             if (proxyaddr instanceof InetSocketAddress) {
