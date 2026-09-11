@@ -147,7 +147,7 @@
     <string name="faq_security_title">Consideraciones de seguridad</string>
     <string name="faq_security">"Como OpenVPN es sensible a la seguridad, son razonables algunas notas acerca de seguridad. Todos los datos en la tarjeta SD son inherentemente inseguros. Cualquier aplicación puede leerla (por ejemplo, esta aplicación no requiere ningún permiso especial sobre la tarjeta SD). Los datos de esta aplicación sólo pueden ser leidos por la misma aplicación. Al utilizar la opción importar para el certificado de la CA/certificado/llave, en la ventana de diálogo para selección de archivos, los datos se almacenan en el perfil de la VPN. Los perfiles de VPN sólo son accesibles por esta aplicación. (No olvide después borrar las copias de la tarjeta SD). Aunque sólo sea accesible por esta aplicación, los datos aún están sin encriptar. Al acceder el dispositivo portátil como root u otro medio, es posible recuperar estos datos. Las contraseñas guardadas son almacenadas también en texto plano. Para archivos pkcs12 es muy recomendable que los importe al repositorio de llaves de Android."</string>
     <string name="import_vpn">Importar</string>
-    <string name="broken_image_cert_title">Error mostrando la seleccion de certificados</string>
+    <string name="broken_image_cert_title">Error mostrando la selección de certificados</string>
     <string name="broken_image_cert">Se obtuvo una excepción al intentar mostrar el diálogo de selección de certificado de Android 4.0+. Esto nunca debería ocurrir por ser una funcionalidad estándar de Android 4.0+. Quizás el respaldo ROM para almacenamiento de certificados de su Android está arruinado</string>
     <string name="ipv4">IPv4</string>
     <string name="ipv6">IPv6</string>
