@@ -168,7 +168,7 @@
     <string name="building_configuration">Se generează configurarea&#8230;</string>
     <string name="netchange_summary">Activând această opțiune forțați o reconectare dacă se schimbă starea de rețea (e.g. WiFi la/de la mobil)</string>
     <string name="netchange">Reconectare la schimbare rețea</string>
-    <string name="netstatus">Statutus rețea: %s</string>
+    <string name="netstatus">Status rețea: %s</string>
     <string name="extracahint">Certificatul CA este în mod normal returnat de Android Keystore. Specificați un certificat separat dacă observați erori de verificare a certificatului.</string>
     <string name="select_file">Selectare</string>
     <string name="keychain_nocacert">Nici un certificat CA nu a fost returnat la citirea din keystore-ul Android. Autentificarea probabil va eșua.</string>
