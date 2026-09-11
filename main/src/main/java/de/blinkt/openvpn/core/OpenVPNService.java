@@ -832,7 +832,7 @@ public class OpenVPNService extends VpnService implements StateListener, Callbac
         if (tc == null)
             return "NULL";
         
-        String cfg = "TUNCFG UNQIUE STRING ips:";
+        String cfg = "TUNCFG UNIQUE STRING ips:";
 
         if (tc.mLocalIP != null)
             cfg += tc.mLocalIP.toString();
