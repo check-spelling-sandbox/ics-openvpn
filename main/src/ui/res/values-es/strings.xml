@@ -297,7 +297,7 @@ hacia/de Móvil)</string>
     <string name="downloaded_data">Descargar</string>
     <string name="vpn_status">Estado de VPN</string>
     <string name="logview_options">Opciones de visualización</string>
-    <string name="unhandled_exception">Excepcion no controlada: %1$s\n\n%2$s</string>
+    <string name="unhandled_exception">Excepción no controlada: %1$s\n\n%2$s</string>
     <string name="unhandled_exception_context">%3$s: %1$s\n\n%2$s</string>
     <string name="full_licenses">Licencias completas</string>
     <string name="blocklocal_summary">Las redes conectadas directamente a los interfaces locales no serán enrutadas a través de la VPN. Al desmarcar esta opción, todo el tráfico previsto para las redes locales será redirigido a la VPN.</string>
