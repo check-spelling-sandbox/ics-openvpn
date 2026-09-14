@@ -420,7 +420,7 @@ public class VpnProfile implements Serializable, Cloneable {
             }
             String versionString = getPlatformVersionEnvString();
             cfg.append(String.format("setenv IV_PLAT_VER %s\n", openVpnEscape(versionString)));
-            String hwaddr = NetworkUtils.getFakeMacAddrFromSAAID(context);
+            String hwaddr = NetworkUtils.getFakeMacAddrFromSSAID(context);
             if (hwaddr != null)
                 cfg.append(String.format("setenv IV_HWADDR %s\n", hwaddr));
 

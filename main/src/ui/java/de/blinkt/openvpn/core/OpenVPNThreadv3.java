@@ -236,7 +236,7 @@ public class OpenVPNThreadv3 extends ClientAPI_OpenVPNClient implements Runnable
         if (mVp.mDpc1protocol)
             config.setAppCustomProtocols("dpc1");
         
-        config.setHwAddrOverride(NetworkUtils.getFakeMacAddrFromSAAID(mService));
+        config.setHwAddrOverride(NetworkUtils.getFakeMacAddrFromSSAID(mService));
         config.setInfo(true);
         config.setAllowLocalLanAccess(mVp.mAllowLocalLAN);
         boolean retryOnAuthFailed = mVp.mAuthRetry == AUTH_RETRY_NOINTERACT;
