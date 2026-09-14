@@ -61,7 +61,7 @@
     <string name="title_cancel">确认取消?</string>
     <string name="cancel_connection_query">断开连接的VPN/取消连接尝试？</string>
     <string name="remove_vpn">删除VPN</string>
-    <string name="check_remote_tlscert">检查服务器是否使用 TLS 服务器端扩展 (--remote-cert-tlsserver server)</string>
+    <string name="check_remote_tlscert">检查服务器是否使用 TLS 服务器端扩展 (--remote-cert-tls server)</string>
     <string name="check_remote_tlscert_title">需要 TLS 服务器证书</string>
     <string name="remote_tlscn_check_summary">检查远程服务器证书的 DN 属性</string>
     <string name="remote_tlscn_check_title">证书主机名检查</string>
