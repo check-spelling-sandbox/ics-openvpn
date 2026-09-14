@@ -107,7 +107,7 @@ public class OpenVPNThreadv3 extends ClientAPI_OpenVPNClient implements Runnable
 
             if (DnsServer.Security.Yes.equals(server.getDnssec()))
             {
-                VpnStatus.logInfo(R.string.dnsserver_ignore_dnnsec, prio, server.to_string().trim());
+                VpnStatus.logInfo(R.string.dnsserver_ignore_dnssec, prio, server.to_string().trim());
                 continue;
             }
 
