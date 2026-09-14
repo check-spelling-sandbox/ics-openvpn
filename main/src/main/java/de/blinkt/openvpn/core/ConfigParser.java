@@ -280,7 +280,7 @@ public class ConfigParser {
             else
                 in = '\0';
 
-            if (!backslash && in == '\\' && state != linestate.readin_single_quote) {
+            if (!backslash && in == '\\' && state != linestate.reading_single_quote) {
                 backslash = true;
             } else {
                 if (state == linestate.initial) {
@@ -290,7 +290,7 @@ public class ConfigParser {
                         if (!backslash && in == '\"')
                             state = linestate.reading_quoted;
                         else if (!backslash && in == '\'')
-                            state = linestate.readin_single_quote;
+                            state = linestate.reading_single_quote;
                         else {
                             out = in;
                             state = linestate.reading_unquoted;
@@ -306,7 +306,7 @@ public class ConfigParser {
                         state = linestate.done;
                     else
                         out = in;
-                } else if (state == linestate.readin_single_quote) {
+                } else if (state == linestate.reading_single_quote) {
                     if (in == '\'')
                         state = linestate.done;
                     else
@@ -1082,7 +1082,7 @@ public class ConfigParser {
 
     enum linestate {
         initial,
-        readin_single_quote, reading_quoted, reading_unquoted, done
+        reading_single_quote, reading_quoted, reading_unquoted, done
     }
 
     public static class ConfigParseError extends Exception {
