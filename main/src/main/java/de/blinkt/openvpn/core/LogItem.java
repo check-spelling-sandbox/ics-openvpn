@@ -54,18 +54,18 @@ public class LogItem implements Parcelable {
         mArgs = args;
     }
 
-    public LogItem(VpnStatus.LogLevel level, int verblevel, String message, long eventLogTime) {
+    public LogItem(VpnStatus.LogLevel level, int verbosityLevel, String message, long eventLogTime) {
         mMessage = message;
         mLevel = level;
-        mVerbosityLevel = verblevel;
+        mVerbosityLevel = verbosityLevel;
         logtime = eventLogTime;
     }
 
 
-    public LogItem(VpnStatus.LogLevel level, int verblevel, String message) {
+    public LogItem(VpnStatus.LogLevel level, int verbosityLevel, String message) {
         mMessage = message;
         mLevel = level;
-        mVerbosityLevel = verblevel;
+        mVerbosityLevel = verbosityLevel;
     }
 
     @Override
